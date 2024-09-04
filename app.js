@@ -7,6 +7,7 @@ const PORT = 3045;
 require("./conn/conn.js");
 const authRoutes = require("./routes/auth");
 const listRoutes = require("./routes/list");
+
 app.use(express.json());
 app.use(cors());
 
